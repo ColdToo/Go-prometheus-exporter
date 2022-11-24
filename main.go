@@ -91,7 +91,7 @@ func main() {
 	flag.Parse()
 
 	if *showVersion {
-		fmt.Fprintln(os.Stdout, version.PrintVersionInfo())
+		fmt.Fprintln(os.Stdout, "v1.0.0")
 		os.Exit(0)
 	}
 
